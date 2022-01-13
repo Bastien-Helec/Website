@@ -1,0 +1,142 @@
+/* ↓Arriere plan ↓ , Premiere balise */
+html{
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    font-size: 18px;
+    position: relative;
+    height: auto;
+    width: auto;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* ↑Arriere plan ↑ , Premiere balise */
+/* ↓Corps interieur ↓ , 2eme balise */
+body{
+    display: block;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+}
+/*↑ Corps interieur ↑ , 2eme balise */
+    /* ↓ Bandeau(nav bar) ↓ , 3eme balise */
+#entete{
+    position: sticky;
+    display: block;
+    height: auto;
+    background: #262b37;
+    top: 0;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    z-index: 2;}
+/* ↑Bandeau ↑(nav bar)↑, 3eme balise  */
+
+/* ↓contenu entete, menu deroulant 4  ↓*/
+#l2{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: block;
+    font-size: 18px;
+}
+/* ↑contenu entete, menu deroulant 4  ↑*/
+/* ↓ liste deroulante ↓ */
+ul{
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+#l2 li{
+    float: left;
+    padding-right:20px;
+    margin-left: 15%;
+}
+#l2 a {
+    display: block;
+    padding: 8%;
+    background-color: transparent;
+    color: #c3c8d6;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    border: 0;
+    margin: 10% 10%;
+}
+/* ↑ liste deroulante ↑ */
+
+section{
+    display:block;
+    margin-top: 0;
+    margin-bottom: 0;
+    block-size: 350px;
+    list-style-type: none;
+}
+div{
+    block-size: 10px;
+}
+h3{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+#Appm{
+    position: relative;
+    height: auto;
+    font-size: 18px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    background-color: #00bdbd;
+    color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    border: 0;    
+}
+
+#Im1{
+    width: 15%;
+    height: auto;
+    margin-top: -2%;
+    margin-left: 82%;
+    border: 0;
+    border-radius: 10px 10px 10px;
+    
+}
+
+#Appmt{
+    padding-left: 0; 
+    margin: 0;
+}
+/* ↑ Terminer ne plus toucher ↑ */
+#Dpm {
+    background-color: rgba(85, 82, 73, 0.781);
+    margin: 0;
+    padding: 0;
+    color: beige;
+    block-size: 250px;
+    font-size: 20px;
+}
+Dt{
+    margin:0;
+    padding: 0;
+}
+#Forms {
+    background-color: rgba(182, 146, 26, 0.747);
+    margin: 0;
+    block-size: 250px;
+}
+#Lois{
+    background-color: rgba(102, 26, 173, 0.726);
+}
+#info{
+font-size: 10px;
+}
